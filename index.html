@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mirza:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lateef:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS DOC -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <!-- JS DOC -->
+    <script defer src="js/script.js"></script>
+     
+    <!-- ICONS -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <title>SAZAK</title>
+  </head>
+  <body>
+    <header class="header sticky">
+      <div class="logo-box">
+      <a class="logo" href="#">
+         sazak
+      </a>
+    </div>
+
+      <nav class="main-nav">
+        <a href="#" class="main-nav-link"
+          >خانه<ion-icon class="nav-icon" name="home-outline"></ion-icon
+        ></a>
+        <a href="#" class="main-nav-link"
+          >محصولات<ion-icon class="nav-icon" name="pricetags-outline"></ion-icon
+        ></a>
+        <a href="#about-us" class="main-nav-link"
+          >درباه ما<ion-icon class="nav-icon" name="help-outline"></ion-icon
+        ></a>
+        <a href="#contacts-col" class="main-nav-link"
+          >تماس باما<ion-icon class="nav-icon" name="chatbubbles-outline"></ion-icon
+        ></a>
+        
+        <!-- <a href="#" class="main-nav-link"
+          >سبدخرید
+          <ion-icon class="nav-icon" name="bag-handle-outline"></ion-icon
+        ></a> -->
+
+        <div class="port-login">
+          <a href="#contacts-col" class="main-nav-link"
+          >ورود/ثبت نام<ion-icon class="nav-icon" name="log-in-outline"></ion-icon
+            ></a>
+            <a class="cta-btn" href="#"> ثبت سفارش<ion-icon class="nav-icon" name="cart-outline"></ion-icon></a>
+          </div>
+        </nav>
+    
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+    <section class="hero-section">
+      <div class="hero">
+        <div class="hero-text-box">
+          <div class="hero-description">
+            <h1 class="heading-primary">
+              سازک؛ صدای موسیقی در ابعاد مینیاتوری!
+            </h1>
+
+            <p class="hero-description-text">
+              <span
+                >سازک، جایی‌ست که موسیقی در قالب ماکت‌های هنرمندانه جان
+                می‌گیرد.</span
+              ><br />
+              ما در سازک با ظرافت و دقت، سازهای موسیقی را در ابعاد کوچک و
+              کلکسیونی می‌سازیم؛ برای علاقه‌مندان، هنرمندان، و هر کسی که با دیدن
+              یک ساز، قلبش می‌تپد. هدیه‌ای خاص، نمادی از هنر، و یادگاری از صدای
+              زندگی.
+            </p>
+          </div>
+          <a class="btn btn--full" href="#">دیدن محصولات</a>
+          <a class="btn btn--out-line" href="#learn-more"
+            >آشنایی بیشتر &darr;</a
+          >
+          <div class="example-instruments">
+            <p class="instrument-text">
+              <span> بیش از 50 نوع</span> ساز در مجموعه ما موجود است!
+            </p>
+            <div class="instruments-imgs">
+              <img
+                class="instrument-img"
+                src="img/e1gk0zmo_thumb.jpg"
+                alt="an instrument"
+              />
+              <img
+                class="instrument-img"
+                src="img/e1gk0zmo_thumb.jpg"
+                alt="an instrument"
+              />
+              <img
+                class="instrument-img"
+                src="img/e1gk0zmo_thumb.jpg"
+                alt="an instrument"
+              />
+              <img
+                class="instrument-img"
+                src="img/e1gk0zmo_thumb.jpg"
+                alt="an instrument"
+              />
+              <img
+                class="instrument-img"
+                src="img/e1gk0zmo_thumb.jpg"
+                alt="an instrument"
+              />
+              <img
+                class="instrument-img"
+                src="img/e1gk0zmo_thumb.jpg"
+                alt="an instrument"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-img-box">
+          <img class="hero-img" src="img/hero.jpg" alt="instruments" />
+        </div>
+      </div>
+    </section>
+    <section class="why-section" id="learn-more">
+      <div class="container">
+        <h2 class="secondary-heading">چرا سازک؟</h2>
+
+        <div class="features grid--4-cols">
+          <div class="feature">
+            <ion-icon class="icon" name="color-palette-outline"></ion-icon>
+            <p class="feature-title">طراحی هنرمندانه</p>
+            <p class="feature-text">
+              هر ماکت با دقت، ظرافت و الهام از ساز واقعی ساخته شده است.
+            </p>
+          </div>
+          <div class="feature">
+            <ion-icon class="icon" name="diamond-outline"></ion-icon>
+            <p class="feature-title">خاص و کلکسیونی</p>
+            <p class="feature-text">
+              سازک تنها یک ماکت نیست؛ یک اثر هنری‌ست برای کسانی که به موسیقی دل
+              بسته‌اند.
+            </p>
+          </div>
+          <div class="feature">
+            <ion-icon class="icon" name="gift-outline"></ion-icon>
+            <p class="feature-title">هدیه‌ای متفاوت</p>
+            <p class="feature-text">
+              ماکت‌های سازک، هدیه‌ای منحصر‌به‌فرد برای موزیسین‌ها و عاشقان هنر
+              هستند.
+            </p>
+          </div>
+          <div class="feature">
+            <ion-icon class="icon" name="ribbon-outline"></ion-icon>
+            <p class="feature-title">کیفیت ساخت بالا</p>
+            <p class="feature-text">
+              از متریال باکیفیت و بادوام استفاده می‌کنیم تا زیبایی ماندگار باشد.
+            </p>
+          </div>
+        </div>
+        <p class="section-subtitle">با سازک، ماکت‌سازی فقط یک کار فنی نیست، یک تجربه‌ی هنری‌ست.</p>
+
+      </div>
+    </section>
+    <section class="offer-section">
+      <div class="container">
+        <h2 class="secondary-heading">محصولات پیشنهانی</h2>
+        <div class="grid--3-cols margin--b-m">
+          <figure class="product-card">
+            <img class="product-img" src="img/hero.jpg" alt="گیتار" />
+            <div class="product-text-box">
+              <div class="product-heading">
+                <h3 class="product-name">گیتار کلاسیک</h3>
+                <div class="tags">
+                  <p class="tag tag--1">کلکسیونی</p>
+                  <p class="tag tag--2">دکوری</p>
+                </div>
+              </div>
+              <ul class="product-deatales">
+                <ion-icon
+                  class="product-icon"
+                  name="sparkles-outline"
+                ></ion-icon>
+                <li class="product-deatale">مونتاژ دستی با جزئیات دقیق</li>
+                <ion-icon
+                  class="product-icon"
+                  name="cube-outline"
+                ></ion-icon>
+                <li class="product-deatale">ابعاد تقریبی: ۲۰×۷ سانتی‌متر</li>
+                <ion-icon
+                  class="product-icon"
+                  name="extension-puzzle-outline"
+                ></ion-icon>
+                <li class="product-deatale">
+                  دارای پایه‌ی نگهدارنده برای نمایش
+                </li>
+                <ion-icon
+                  class="product-icon"
+                  name="color-fill-outline"
+                ></ion-icon>
+                <li class="product-deatale">رنگ طبیعی چوب (قهوه‌ای کلاسیک)</li>
+              </ul>
+              <div class="product-price">
+                <a class="btn-add" href="#">افزودن به سبدخرید</a>
+                <strong class="price">4,500,000 ریال</strong>
+              </div>
+            </div>
+          </figure>
+          <figure class="product-card">
+            <img class="product-img" src="img/hero.jpg" alt="گیتار" />
+            <div class="product-text-box">
+              <div class="product-heading">
+                <h3 class="product-name">گیتار کلاسیک</h3>
+                <div class="tags">
+                  <p class="tag tag--1">کلکسیونی</p>
+                  <p class="tag tag--2">دکوری</p>
+                </div>
+              </div>
+              <ul class="product-deatales">
+                <ion-icon
+                  class="product-icon"
+                  name="sparkles-outline"
+                ></ion-icon>
+                <li class="product-deatale">مونتاژ دستی با جزئیات دقیق</li>
+                <ion-icon
+                  class="product-icon"
+                  name="cube-outline"
+                ></ion-icon>
+                <li class="product-deatale">ابعاد تقریبی: ۲۰×۷ سانتی‌متر</li>
+                <ion-icon
+                  class="product-icon"
+                  name="extension-puzzle-outline"
+                ></ion-icon>
+                <li class="product-deatale">
+                  دارای پایه‌ی نگهدارنده برای نمایش
+                </li>
+                <ion-icon
+                  class="product-icon"
+                  name="color-fill-outline"
+                ></ion-icon>
+                <li class="product-deatale">رنگ طبیعی چوب (قهوه‌ای کلاسیک)</li>
+              </ul>
+              <div class="product-price">
+                <a class="btn-add" href="#">افزودن به سبدخرید</a>
+                <strong class="price">4,500,000 ریال</strong>
+              </div>
+            </div>
+          </figure>
+          <figure class="product-card">
+            <img class="product-img" src="img/hero.jpg" alt="گیتار" />
+            <div class="product-text-box">
+              <div class="product-heading">
+                <h3 class="product-name">گیتار کلاسیک</h3>
+                <div class="tags">
+                  <p class="tag tag--1">کلکسیونی</p>
+                  <p class="tag tag--2">دکوری</p>
+                </div>
+              </div>
+              <ul class="product-deatales">
+                <ion-icon
+                  class="product-icon"
+                  name="sparkles-outline"
+                ></ion-icon>
+                <li class="product-deatale">مونتاژ دستی با جزئیات دقیق</li>
+                <ion-icon
+                  class="product-icon"
+                  name="cube-outline"
+                ></ion-icon>
+                <li class="product-deatale">ابعاد تقریبی: ۲۰×۷ سانتی‌متر</li>
+                <ion-icon
+                  class="product-icon"
+                  name="extension-puzzle-outline"
+                ></ion-icon>
+                <li class="product-deatale">
+                  دارای پایه‌ی نگهدارنده برای نمایش
+                </li>
+                <ion-icon
+                  class="product-icon"
+                  name="color-fill-outline"
+                ></ion-icon>
+                <li class="product-deatale">رنگ طبیعی چوب (قهوه‌ای کلاسیک)</li>
+              </ul>
+              <div class="product-price">
+                <a class="btn-add" href="#">افزودن به سبدخرید</a>
+                <strong class="price">4,500,000 ریال</strong>
+              </div>
+            </div>
+          </figure>
+        </div>
+        <div class="container all-products"><a class="all-products-link"  href="#">دیدن تمام محصولات&larr;</a></div>
+      </div>
+    </section>
+    <section class="about-section" id="about-us">
+      <div class="container">
+        <div>
+        <h2 class="secondary-heading">درباره ما</h2>
+            <p class="about-intro">
+              <strong>سازک، تلاقی هنر، فناوری و عشق به موسیقی است.</strong>
+            </p>
+
+            <p class="about-paragraph">
+              ما در سازک، بیش از ۱۵ سال است که با تمرکز بر طراحی و ساخت ماکت‌های
+              هنری از سازهای موسیقی، به خلق آثاری منحصربه‌فرد مشغولیم. از همان
+              ابتدا هدف ما روشن بود: تبدیل سازهای واقعی به نسخه‌های کوچک و
+              هنرمندانه‌ای که بتوانند حس موسیقی را به چشم و دل مخاطب منتقل کنند.
+            </p>
+
+            <p class="about-paragraph">
+              در کارگاه تخصصی سازک، تیمی متشکل از بیش از ۲۰ نیروی مجرب و هنرمند،
+              با استفاده از
+              <strong>برش لیزری چوب، چاپگرهای سه‌بعدی پیشرفته</strong> و
+              تکنیک‌های پرداخت دستی، ماکت‌هایی با کیفیت بالا و جزئیات خیره‌کننده
+              تولید می‌کنند.
+            </p>
+
+            <p class="about-paragraph">
+              امروز، با افتخار بیش از
+              <strong>۵۰ نوع ماکت از سازهای ایرانی، کلاسیک و مدرن</strong> در
+              مجموعه‌ی سازک داریم؛ از تار و سنتور گرفته تا ویولن، پیانو و گیتار
+              کلاسیک — هرکدام با طراحی دقیق، سیم‌کشی واقعی و پایه نگهدارنده
+              مخصوص.
+            </p>
+
+            <p class="about-paragraph">
+              ما آماده‌ایم تا علاوه بر فروش تکی،
+              <strong>سفارش‌های عمده</strong> برای گالری‌ها، فروشگاه‌ها، مراکز
+              هنری و هدایای سازمانی را نیز بپذیریم.
+            </p>
+
+            <p class="about-closing">
+                سازک فقط یک برند نیست، بلکه پلی‌ست میان دستان هنرمند و صدای
+                سازهایی که در قلب ما زنده‌اند.
+            </p>
+          
+          
+        </div>
+        </section>
+
+        <section class="testimonials-section">
+          <div class="container ">
+          <h2 class="secondary-heading">صدای رضایت مشتریان</h2>
+          <div class="grid--3-cols margin--b-m">
+            <figure class="testimonials-cart">
+              
+              <img class="testimonial-pic" src="img/customers/customer-1.jpg" alt="کاربر سازک"  />
+              <div class="rating-box">
+                <ion-icon class="star-icon" name="star"></ion-icon>
+                <ion-icon class="star-icon" name="star"></ion-icon>
+
+                <ion-icon class="star-icon" name="star"> </ion-icon>
+
+               <ion-icon class="star-icon" name="star"></ion-icon>
+               <ion-icon class="star-icon" name="star-half"></ion-icon>
+               <p class="rating-num">4.5</p>
+              
+            </div>
+              <blockquote class="testimonial-text">"من ماکت ویولن سفارش دادم. اصلاً فکر نمی‌کردم تا این حد ظریف و واقعی باشه. عالی بود!" </blockquote>
+              <h3 class="user-name">&mdash; سارا از تهران</h3>
+            </figure>
+            <figure class="testimonials-cart">
+              
+              <img class="testimonial-pic" src="img/customers/customer-3.jpg" alt="کاربر سازک"  />
+              <div class="rating-box">
+                <ion-icon class="star-icon" name="star"></ion-icon>
+                <ion-icon class="star-icon" name="star"></ion-icon>
+
+                <ion-icon class="star-icon" name="star"> </ion-icon>
+
+               <ion-icon class="star-icon" name="star"></ion-icon>
+               <ion-icon class="star-icon" name="star-half"></ion-icon>
+               <p class="rating-num">4.5</p>
+              
+            </div>
+              <blockquote class="testimonial-text">"ماکت گیتار رو به عنوان هدیه به یکی از دوستانم دادم. وقتی بازش کرد اشک تو چشماش جمع شد!" </blockquote>
+              <h3 class="user-name">&mdash; الناز، کلکسیون‌دار سازهای مینیاتوری</h3>
+            </figure>
+            <figure class="testimonials-cart">
+              
+              <img class="testimonial-pic" src="img/customers/customer-2.jpg" alt="کاربر سازک"  />
+              <div class="rating-box">
+                <ion-icon class="star-icon" name="star"></ion-icon>
+                <ion-icon class="star-icon" name="star"></ion-icon>
+
+                <ion-icon class="star-icon" name="star"> </ion-icon>
+
+               <ion-icon class="star-icon" name="star"></ion-icon>
+               <ion-icon class="star-icon" name="star-half"></ion-icon>
+               <p class="rating-num">4.5</p>
+              
+            </div>
+              <blockquote class="testimonial-text"> "ما سفارش عمده دادیم برای گالری‌مون. بسته‌بندی حرفه‌ای بود و مشتری‌هامون عاشقش شدن."  </blockquote>
+              <h3 class="user-name">&mdash;امیرحسین نقی یار،غرفه دار</h3>
+            </figure>
+            <figure class="testimonials-cart">
+              
+              <img class="testimonial-pic" src="img/customers/customer-4.jpg" alt="کاربر سازک"  />
+              <div class="rating-box">
+                <ion-icon class="star-icon" name="star"></ion-icon>
+                <ion-icon class="star-icon" name="star"></ion-icon>
+
+                <ion-icon class="star-icon" name="star"> </ion-icon>
+
+               <ion-icon class="star-icon" name="star"></ion-icon>
+               <ion-icon class="star-icon" name="star"></ion-icon>
+               
+               <p class="rating-num">5</p>
+              
+            </div>
+              <blockquote class="testimonial-text"> "کیفیت پرینت سه‌بعدی و جزئیات چوبی واقعاً بالاست. حس می‌کنی یه ساز واقعی تو دستته." </blockquote>
+              <h3 class="user-name">&mdash; متین مرادی</h3>
+            </figure>
+            <figure class="testimonials-cart">
+              
+              <img class="testimonial-pic" src="img/customers/customer-5.jpg" alt="کاربر سازک"  />
+              <div class="rating-box">
+                <ion-icon class="star-icon" name="star"></ion-icon>
+                <ion-icon class="star-icon" name="star"></ion-icon>
+                <ion-icon class="star-icon" name="star"></ion-icon>
+                <ion-icon class="star-icon" name="star"> </ion-icon>
+               <ion-icon class="star-icon" name="star-outline"></ion-icon>
+               
+               <p class="rating-num">4</p>
+              
+            </div>
+              <blockquote class="testimonial-text">"تحویل سریع، بسته‌بندی عالی، و مهم‌تر از همه: کیفیتی که ازش انتظار نداشتم. ممنون از سازک."</blockquote>
+              <h3 class="user-name">&mdash; محمد تهرانی،نوازنده پیانو</h3>
+            </figure>
+            <figure class="testimonials-cart">
+              
+              <img class="testimonial-pic" src="img/customers/customer-6.jpg" alt="کاربر سازک"  />
+              <div class="rating-box">
+                <ion-icon class="star-icon" name="star"></ion-icon>
+                <ion-icon class="star-icon" name="star"></ion-icon>
+
+                <ion-icon class="star-icon" name="star"> </ion-icon>
+
+               <ion-icon class="star-icon" name="star"></ion-icon>
+               <ion-icon class="star-icon" name="star-half"></ion-icon>
+               <p class="rating-num">4.5</p>
+              
+            </div>
+              <blockquote class="testimonial-text"> "چیزیه که هیچ‌جا مثلش پیدا نمی‌شه. خیلی دقیق و با جزئیاته. دکور اتاقم خاص‌تر شد." </blockquote>
+              <h3 class="user-name">&mdash; مهرناز شاکری،نوازنده ساز</h3>
+            </figure>
+          </div>
+          <p class="section-subtitle">شنیدن صدای رضایت، موسیقی ماست.</p>
+          </div>
+        </section>
+        <footer class="footer">
+          <div class="container grid--3-cols">
+            <div class="logo-col">
+              <div class="footer-logo ">
+              <a class="logo " href="#">sazak</a>
+            </div>
+
+              <ul class="social-links">
+              <li><a class="footer-link" href="#"><ion-icon class="social-icon"  name="logo-instagram"></ion-icon></a></li>
+              <li><a class="footer-link" href="#"><ion-icon class="social-icon"  name="logo-whatsapp"></ion-icon></a></li>
+              <li><a class="footer-link" href="#"><ion-icon class="social-icon telegram-icon"  name="send-outline"></ion-icon></a></li>
+             
+            </ul>
+            <p class="copyright">&copy; <span class="year">2015</span> Sazak | سازک &dash; تولیدکننده ماکت‌های هنری سازهای موسیقی. تمامی حقوق محفوظ است.</p>
+            </div>
+            <div class="contacts-col" id="contacts-col">
+              <p class="footer-heading">اطلاعات تماس</p>
+
+              <address class="contacts contacts-grid">
+                <ion-icon  class="contacts-icon" name="location-outline"></ion-icon>
+            <p class="address">تهران،اسلامشهر،شهرک امام حسین،خیابان امیراکرم،شمشاد24،پلاک5</p>
+            
+                <ion-icon class="contacts-icon" name="call-outline"></ion-icon>
+                <p>
+              <a class="footer-link" href="tel:09381014990">09381014990</a></p>
+            <ion-icon class="contacts-icon" name="mail-outline"></ion-icon>
+            <p>
+              <a class="footer-link" href="mailto:hello@sazak.com">hello@sazak.com</a>
+            </p>
+            <ion-icon class="contacts-icon" name="time-outline"></ion-icon>
+            <p>ساعات پاسخ‌گویی ( ۹ تا ۱۷)</p>
+          </address>
+            </div>
+             <div class="quick-access-col ">
+               <p class="footer-heading">دسترسی سریع</p>
+               <div class="quick-access-links ">
+              <ion-icon class="nav-icon" name="home-outline"></ion-icon>
+              <p><a href="#" class="footer-link">خانه</a></p>
+                <ion-icon class="nav-icon" name="pricetags-outline"></ion-icon>
+       <p> <a href="#" class="footer-link" >محصولات</a></p>
+                  <ion-icon class="nav-icon" name="help-outline"></ion-icon>
+        <p><a href="#about-us" class="footer-link">درباه ما</a></p>
+          <ion-icon class="nav-icon" name="chatbubbles-outline"></ion-icon>
+        <p><a href="#contacts-col" class="footer-link">تماس باما</a></p>
+        <ion-icon class="nav-icon" name="log-in-outline"></ion-icon>
+        <p><a href="#contacts-col" class="footer-link">ورود/ثبت نام</a></p>
+      </div>
+          </div>
+        </footer>
+  </body>
+</html>
