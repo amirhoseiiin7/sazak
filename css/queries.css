@@ -197,7 +197,7 @@
   .main-nav .cta-btn:visited {
     font-size: 3.2rem;
     color: #fff;
-    padding: 1rem 1.8rem;
+    padding: 1.4rem 1.8rem;
   }
 
   .heading-primary {
@@ -306,7 +306,7 @@
   }
 
   .open-nav .main-nav {
-    justify-content: start;
+    justify-content: center;
     gap: 0.8rem;
   }
 
