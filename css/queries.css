@@ -1,29 +1,52 @@
 /* 1232PX */
 @media (max-width: 76em) {
-  html {
+  /* html {
     font-size: 56.25%;
-  }
+  } */
   .hero {
     max-width: 1200rem;
+  }
+
+  .heading-primary {
+    font-size: 7.4rem;
+  }
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 2.2rem;
+  }
+  .cta-btn:link,
+  .cta-btn:visited {
+    font-size: 3.2rem;
+  }
+  .example-instruments {
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
   }
 }
 /* 1072px */
 @media (max-width: 67em) {
   html {
-    font-size: 50%;
+    font-size: 56.25%;
   }
   .testimonial-text {
     font-size: 2rem;
   }
-  .instrument-text {
+  .product-deatale {
+    font-size: 2.6rem;
+  }
+  .btn-add:link,
+  .btn-add:visited {
     font-size: 2.6rem;
   }
 }
 
 /* 928px */
-@media (max-width: 58em) {
+@media (max-width: 59.2em) {
   html {
-    font-size: 42%;
+    font-size: 50%;
+  }
+  .logo {
+    font-size: 9.4rem;
   }
   .hero {
     grid-template-columns: 1fr;
@@ -37,13 +60,31 @@
     gap: 2rem;
     margin-top: 6.4rem;
   }
+  .instrument-img {
+    height: 6.4rem;
+    width: 6.4rem;
+  }
+  .instrument-text {
+    font-size: 4rem;
+  }
   .hero-img {
-    width: 60%;
+    width: 80%;
   }
 
-  .secondary-heading {
-    font-size: 6.2rem;
+  .icon {
+    width: 4.4rem;
+    height: 4.4rem;
   }
+  .feature-title {
+    font-size: 4.4rem;
+  }
+  .feature-text {
+    font-size: 3.4rem;
+  }
+  .section-subtitle {
+    font-size: 3.4rem;
+  }
+
   .grid--4-cols {
     grid-template-columns: repeat(2, 1fr);
     gap: 8rem;
@@ -52,13 +93,21 @@
   .testimonials-section .grid--3-cols {
     grid-template-columns: repeat(2, 1fr);
     gap: 8rem;
+    column-gap: 0;
   }
   .testimonials-cart {
-    width: 75%;
+    width: 85%;
+  }
+  .testimonial-text {
+    font-size: 2.8rem;
   }
   .heading-primary {
     font-size: 7.4rem;
   }
+  /* .secondary-heading{
+    font-size: 4.4rem;
+
+  } */
   /* MOBILE NAV */
 
   /* MOBILE  NAV */
@@ -126,20 +175,22 @@
     font-size: 2.8rem;
     font-weight: bold;
   }
-
-  .footer .grid--3-cols {
-    grid-template-columns: 2fr 2fr 1fr;
-  }
 }
 /* 800px */
-@media (max-width: 50em) {
+@media (max-width: 52em) {
   html {
-    font-size: 36%;
+    font-size: 44%;
+  }
+  .sticky .header {
+    height: 12.8rem;
+  }
+  .open-nav .main-nav {
+    height: 12.8rem;
+  }
+  .open-nav .main-nav .main-nav-link {
+    font-size: 3rem;
   }
 
-  .open-nav .main-nav .main-nav-link {
-    font-size: 2rem;
-  }
   .open-nav,
   .main-nav .cta-btn:link,
   .open-nav,
@@ -149,10 +200,23 @@
     padding: 1rem 1.8rem;
   }
 
-  .secondary-heading {
-    font-size: 5.2rem;
+  .heading-primary {
+    font-size: 8rem;
   }
 
+  .hero-description-text {
+    font-size: 3.2rem;
+  }
+  .btn:link,
+  .btn:visited {
+    font-size: 4.4rem;
+  }
+  .secondary-heading {
+    font-size: 6.2rem;
+  }
+  .about-intro {
+    font-size: 3rem;
+  }
   .why-section .grid--4-cols {
     column-gap: 0;
   }
@@ -167,19 +231,22 @@
     row-gap: 9.6rem;
   }
   .product-card {
-    width: 75%;
+    width: 85%;
   }
-  .testimonials-section .grid--3-cols {
+  /* .testimonials-section .grid--3-cols {
     grid-template-columns: repeat(3, 1fr);
     gap: 3.2rem;
     row-gap: 4.4rem;
-  }
+  } */
   .testimonials-cart {
     width: 80%;
   }
 
   .testimonial-text {
-    font-size: 1.4rem;
+    font-size: 2.5rem;
+  }
+  .user-name {
+    font-size: 2.1rem;
   }
   .logo-col {
     grid-column: span 3;
@@ -187,97 +254,247 @@
   }
 
   .quick-access-col {
-    grid-column: 3;
+    grid-column: 1;
     grid-row: 1;
+  }
+  .contacts-col {
+    grid-column: span 2;
+    justify-self: start;
+  }
+  .contacts,
+  .quick-access-links {
+    font-size: 2.4rem;
+  }
+  .footer-heading {
+    font-size: 3rem;
+  }
+  .footer .logo {
+    font-size: 7.4rem;
+  }
+
+  .footer-link {
+    font-size: 2.6rem;
+  }
+  .contacts,
+  .quick-access-links {
+    font-style: normal;
+    font-size: 2.4rem;
+  }
+
+  .nav-icon {
+    width: 2.6rem;
+    height: 2.6rem;
+  }
+  .social-icon {
+    width: 2.8rem;
+    height: 2.8rem;
+  }
+  .copyright {
+    font-size: 2.4rem;
+  }
+  .footer .grid--3-cols {
+    grid-template-columns: 1fr 1fr 2fr;
   }
 }
 /* 533px */
-@media (max-width: 34em) {
-  html {
-    font-size: 30%;
+@media (max-width: 41em) {
+  .hero {
+    padding: 0 4rem;
   }
-  .logo {
-    font-size: 5.2rem;
+  .open-nav .main-nav .nav-icon {
+    display: none;
   }
+
   .open-nav .main-nav {
     justify-content: start;
+    gap: 0.8rem;
+  }
+
+  .open-nav .main-nav .main-nav-link {
+    padding: 0.4rem 0.8rem;
+  }
+  /* //////////////////// */
+  .logo {
+    font-size: 6.2rem;
+  }
+
+  .grid--4-cols {
+    grid-template-columns: 1fr;
+    gap: 8rem;
+    justify-items: center;
   }
 
   .feature {
     width: 75%;
   }
-  .offer-section .grid--3-cols {
-    grid-template-columns: repeat(1, 1fr);
+
+  .offer-section .grid--2-cols {
+    grid-template-columns: 1fr;
     justify-items: center;
     justify-content: center;
     column-gap: 0;
     row-gap: 9.6rem;
   }
   .product-card {
-    width: 65%;
+    width: 80%;
+  }
+  .product-name {
+    font-size: 5.2rem;
+  }
+  .tag {
+    font-size: 2.4rem;
+    padding: 0.6rem 1.2rem;
+  }
+  .product-icon {
+    width: 3rem;
+    height: 3rem;
+  }
+  .product-deatale {
+    font-size: 3.2rem;
+  }
+
+  .btn-add:link,
+  .btn-add:visited {
+    font-size: 3.4rem;
+  }
+  .price {
+    font-size: 3.2rem;
+    font-weight: bold;
   }
   .testimonials-section .grid--3-cols {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 3.2rem;
-    row-gap: 4.4rem;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .testimonial-pic {
+    transform: translate(70%, -70%);
+    width: 9.6rem;
   }
   .testimonials-cart {
     width: 80%;
+    padding: 3rem;
+  }
+
+  .rating-box {
+    margin-bottom: 1.4rem;
+  }
+  .rating-num {
+    font-size: 3.6rem;
+  }
+  .star-icon {
+    width: 2.6rem;
+    height: 2.6rem;
   }
   .testimonial-text {
-    font-size: 1.8rem;
+    font-size: 3.2rem;
   }
+
   .user-name {
-    font-size: 1.4rem;
+    font-size: 2.6rem;
   }
 
   .about-intro {
-    font-size: 2.6rem;
+    font-size: 3.2rem;
     font-weight: bold;
     margin-bottom: 1.2rem;
   }
 
   .about-paragraph {
-    font-size: 2.2rem;
-    line-height: 1.1;
+    font-size: 2.8rem;
+    line-height: 1.4;
     margin-bottom: 0.8rem;
   }
   .about-closing {
-    font-size: 2.4rem;
+    font-size: 3rem;
     font-weight: bold;
   }
 }
+
 /* 375 */
-@media (max-width: 24em) {
+@media (max-width: 29em) {
+  .hero {
+    padding: 0 1.8rem;
+  }
+
+  .section-subtitle {
+    font-size: 3rem;
+  }
+  .btn:link,
+  .btn:visited {
+    font-size: 3.8rem;
+  }
+  .instrument-text {
+    font-size: 3.8rem;
+  }
+
+  .product-card {
+    width: 90%;
+  }
+  .product-name {
+    font-size: 4.4rem;
+  }
+  .tag {
+    font-size: 2.4rem;
+  }
+  .product-icon {
+    width: 2.4rem;
+    height: 2.4rem;
+  }
+  .product-deatale {
+    font-size: 2.6rem;
+  }
+
+  .btn-add:link,
+  .btn-add:visited {
+    font-size: 3.2rem;
+  }
+  .price {
+    font-size: 2.8rem;
+  }
+  .about-intro {
+    font-size: 3.4rem;
+  }
+
+  .about-paragraph {
+    font-size: 3rem;
+  }
+  .about-closing {
+    font-size: 3.2rem;
+  }
+  /* ////////////////////// */
   .open-nav .main-nav {
-    /* flex-wrap: wrap; */
-    padding-top: 1.6rem;
-    padding-bottom: 1.6rem;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3.2rem;
   }
   .open-nav .main-nav .main-nav-link {
-    font-size: 1.2rem;
+    font-size: 5.2rem;
   }
   .open-nav,
   .main-nav .cta-btn:link,
   .open-nav,
   .main-nav .cta-btn:visited {
-    font-size: 2.4rem;
+    font-size: 6.2rem;
     color: #fff;
     padding: 0.4rem 0.8rem;
   }
-
-  .why-section .grid--4-cols {
-    grid-template-columns: 1fr;
+  .footer .grid--3-cols {
+    grid-template-columns: 1fr 1fr;
   }
-  .feature {
+
+  /* .why-section .grid--4-cols {
+    grid-template-columns: 1fr;
+  } */
+  /* .feature {
     width: 75%;
   }
 
   .product-card {
     width: 65%;
-  }
-  .testimonials-section .grid--3-cols {
+  } */
+  /* .testimonials-section .grid--3-cols {
     grid-template-columns: repeat(1, 1fr);
     justify-items: center;
-  }
+  } */
 }
