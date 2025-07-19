@@ -176,7 +176,11 @@ medium:11px
   grid-template-columns: 1fr 1fr;
   gap: 9.6rem;
 }
-
+.hero-btns {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
 .hero-img {
   width: 100%;
   border-radius: 25%;
@@ -209,13 +213,12 @@ medium:11px
   border-radius: 10px;
   font-size: 3rem;
   font-weight: bold;
-  letter-spacing: 1px;
+  /* letter-spacing: 1px; */
   transition: all 0.3s ease-in-out;
 }
 .btn--full:link,
 .btn--full:visited {
   background-color: var(--primary-color);
-  margin-left: 2rem;
 }
 
 .btn--full:hover,
@@ -302,7 +305,7 @@ medium:11px
 .feature-text {
   font-size: 2.4rem;
   line-height: 1.1;
-  letter-spacing: 1px;
+  /* letter-spacing: 1px; */
 }
 .section-subtitle {
   color: #454545;
@@ -322,6 +325,7 @@ medium:11px
   border-radius: 10px;
   overflow: hidden;
   transition: all 0.4s;
+  width: 75%;
 }
 .product-card:hover {
   transform: translateY(-1.2rem);
@@ -357,7 +361,7 @@ medium:11px
 .product-name {
   color: #333;
   font-weight: bold;
-  font-size: 2.8rem;
+  font-size: 4.4rem;
   font-weight: bold;
   margin-bottom: 2rem;
 }
@@ -367,7 +371,7 @@ medium:11px
   gap: 1rem;
 }
 .tag {
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   padding: 0.6rem 1.2rem;
   border-radius: 999px;
   color: #fff;
@@ -391,15 +395,15 @@ medium:11px
   margin-bottom: 2.4rem;
 }
 .product-deatale {
-  font-size: 2rem;
+  font-size: 2.8rem;
   font-weight: 500;
   line-height: 1;
 }
 .product-icon {
   border-radius: 999px;
   display: block;
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 2.4rem;
+  height: 2.4rem;
   padding: 0.8rem;
   color: #cf7117;
   background-color: var(--background-color);
@@ -417,7 +421,7 @@ medium:11px
   color: #ffffff;
   text-decoration: none;
   font-weight: 500;
-  font-size: 2.4rem;
+  font-size: 3.2rem;
   display: inline-block;
   border-radius: 999px;
   background-color: var(--primary-color);
@@ -430,7 +434,7 @@ medium:11px
 }
 
 .price {
-  font-size: 2.4rem;
+  font-size: 2.8rem;
   font-weight: bold;
 }
 .all-products {
@@ -439,7 +443,7 @@ medium:11px
 .all-products-link:link,
 .all-products-link:visited {
   display: inline-block;
-  font-size: 2.4rem;
+  font-size: 2.8rem;
   font-weight: bold;
   color: var(--primary-color);
   text-decoration: none;
@@ -457,6 +461,7 @@ medium:11px
 
 .about-section {
   padding: 9.6rem 0;
+  /* line-height: 1.4; */
 }
 
 .about-intro {
